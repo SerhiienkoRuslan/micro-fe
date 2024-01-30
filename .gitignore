@@ -1,0 +1,34 @@
+node_modules/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.log
+/dist
+.eslintcache
+.env
+#no lock files
+#*-lock.json
+.npmrc
+src/configs.json
+
+# nyc
+coverage
+.nyc_output
+
+# jest
+jest/coverage
+junit.xml
+
+# cypress
+cypress/coverage
+cypress/reports
+cypress/screenshots
+cypress/videos
+cypress/downloads
+
+# ci
+cypress-gitlab-ci.yml
+cypress-sanity-gitlab-ci.yml
